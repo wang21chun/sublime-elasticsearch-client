@@ -1,9 +1,13 @@
 <snippet>
-    <content><![CDATA[
-    "_geo_distance": {
-        "${1:field}": "${2:${3:latitude},${4:longitude}}"
-    }
-]]></content>
+    <content>
+        <![CDATA[
+"_geo_distance": {
+    "${1:field}": "${2:${3:latitude},${4:longitude}}",
+    "order": "${5:desc}",
+    "unit": "${6:km}"
+}
+]]>
+    </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>_geodistance</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->

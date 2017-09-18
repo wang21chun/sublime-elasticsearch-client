@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-    "sort": [{$1}$2]
+    "sort": [{
+    $1
+    }$2]
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>sort</tabTrigger>
